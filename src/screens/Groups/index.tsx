@@ -8,8 +8,8 @@ export function Groups() {
       <Header />
       
       <Highlight
-        title="Turmas"
-        subtitle="Jogue com a sua turma"
+        title="Teams"
+        subtitle="Play with your team"
       />
     </Container>
   );
