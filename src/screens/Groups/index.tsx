@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import { Button } from '@components/Button';
 import { Header } from '@components/Header';
 import { Highlight } from '@components/Highlight';
 import { GroupCard } from '@components/GroupCard';
@@ -33,6 +34,10 @@ export function Groups() {
         ListEmptyComponent={() => (
           <ListEmpty message="How about registering first team?" />
         )}
+      />
+
+      <Button
+        title="Create new team"
       />
     </Container>
   );
